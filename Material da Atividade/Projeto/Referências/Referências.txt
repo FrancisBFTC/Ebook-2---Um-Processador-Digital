@@ -1,0 +1,15 @@
+Malvino, Albert Paul; Brown, Jerald A. (1993). Digital Computer Electronics (3 ed.). McGraw-Hill. pp. 140–212. ISBN 0-02-800594-5.
+
+Malvino, Albert Paul; Brown, Jerald A. (1993). Digital Computer Electronics (3 ed.). McGraw-Hill. pp. 143–144. ISBN 0-02-800594-5.
+
+Eater, Ben. Build an 8-bit computer from scratch. Ben Eater. Disponível em: <https://eater.net/8bit/control>. Acessado em: 10 Aug. 2024.
+
+KarenOk. Designing and Implementing a SAP-1 Computer. KarenOk. Disponível em: <https://karenok.github.io/SAP-1-Computer>. Acessado em: 11 Aug. 2024.
+
+Malvino, Albert Paul; Brown, Jerald A. (1993). Digital Computer Electronics (3 ed.). McGraw-Hill. Disponível em: < https://drive.google.com/file/d/1g9VK7DQuiCMUlins-J77bPicDu4BEXPz/view>. Acessado em: 20 Aug. 2024.
+
+Tanenbaum, Andrew S; Austin, Todd. Organização estruturada de computadores. Tradução Daniel Vieira. Revisão Técnica. Wagner Luiz Zucchi. São Paulo: Pearson Prentice Hall, 2013. Disponível em: < https://github.com/free-educa/books/blob/main/books/Organização%20estruturada%20de%20computadores%20-%20Tanenbaum.pdf>. Acessado em: 22 Aug. 2024.
+
+Souza, Pedro. Circuitos Digitais. 2020. Disponível em: <https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf>. Acessado em: 22 Aug. 2024.
+
+Sichman, Jaime S. Engenharia de Computação – Circuitos Lógicos – 10ª bimestre. 2016. Disponível em: <https://www.youtube.com/playlist?list=PLxI8Can9yAHeWyA5-3n4TrLZMa1YgaBAS>. Acessado em: 22 Aug. 2024.
