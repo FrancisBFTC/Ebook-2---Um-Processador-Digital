@@ -5,46 +5,46 @@ Logical Operations ->
 'AND' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	AND R0	00h	1
-	...		AND R1	01h	1
-	...		AND R2	02h	1
-	...		AND R3	03h	1
-	...		AND R4	04h	1
+	...			AND R1	01h	1
+	...			AND R2	02h	1
+	...			AND R3	03h	1
+	...			AND R4	04h	1
 	... 		AND R5	05h	1
-	...		AND R6	06h	1
-	...		AND R7	07h	1
+	...			AND R6	06h	1
+	...			AND R7	07h	1
 
 'OR' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	OR R0	10h	1
-	...		OR R1	11h	1
-	...		OR R2	12h	1
-	...		OR R3	13h	1
-	...		OR R4	14h	1
+	...			OR R1	11h	1
+	...			OR R2	12h	1
+	...			OR R3	13h	1
+	...			OR R4	14h	1
 	... 		OR R5	15h	1
-	...		OR R6	16h	1
-	...		OR R7	17h	1
+	...			OR R6	16h	1
+	...			OR R7	17h	1
 
 'NOT' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	NOT R0	20h	1
-	...		NOT R1	21h	1
-	...		NOT R2	22h	1
-	...		NOT R3	23h	1
-	...		NOT R4	24h	1
+	...			NOT R1	21h	1
+	...			NOT R2	22h	1
+	...			NOT R3	23h	1
+	...			NOT R4	24h	1
 	... 		NOT R5	25h	1
-	...		NOT R6	26h	1
-	...		NOT R7	27h	1
+	...			NOT R6	26h	1
+	...			NOT R7	27h	1
 
 'XOR' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	XOR R0	30h	1
-	...		XOR R1	31h	1
-	...		XOR R2	32h	1
-	...		XOR R3	33h	1
-	...		XOR R4	34h	1
+	...			XOR R1	31h	1
+	...			XOR R2	32h	1
+	...			XOR R3	33h	1
+	...			XOR R4	34h	1
 	... 		XOR R5	35h	1
-	...		XOR R6	36h	1
-	...		XOR R7	37h	1
+	...			XOR R6	36h	1
+	...			XOR R7	37h	1
 
 Note: The AND, OR and XOR operations performs the operation between DR (Accumulator) 
 and Rx, where 'x' is from 0 to 7, saving the result in DR. However, NOT operation performs the
@@ -55,46 +55,46 @@ Aritmethic Operations ->
 'ADD' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	ADD R0	40h	1
-	...		ADD R1	41h	1
-	...		ADD R2	42h	1
-	...		ADD R3	43h	1
-	...		ADD R4	44h	1
+	...			ADD R1	41h	1
+	...			ADD R2	42h	1
+	...			ADD R3	43h	1
+	...			ADD R4	44h	1
 	... 		ADD R5	45h	1
-	...		ADD R6	46h	1
-	...		ADD R7	47h	1
+	...			ADD R6	46h	1
+	...			ADD R7	47h	1
 
 'SUB' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	SUB R0	50h	1
-	...		SUB R1	51h	1
-	...		SUB R2	52h	1
-	...		SUB R3	53h	1
-	...		SUB R4	54h	1
+	...			SUB R1	51h	1
+	...			SUB R2	52h	1
+	...			SUB R3	53h	1
+	...			SUB R4	54h	1
 	... 		SUB R5	55h	1
-	...		SUB R6	56h	1
-	...		SUB R7	57h	1
+	...			SUB R6	56h	1
+	...			SUB R7	57h	1
 
 'MUL' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	MUL R0	88h	1
-	...		MUL R1	89h	1
-	...		MUL R2	8Ah	1
-	...		MUL R3	8Bh	1
-	...		MUL R4	8Ch	1
+	...			MUL R1	89h	1
+	...			MUL R2	8Ah	1
+	...			MUL R3	8Bh	1
+	...			MUL R4	8Ch	1
 	... 		MUL R5	8Dh	1
-	...		MUL R6	8Eh	1
-	...		MUL R7	8Fh	1
+	...			MUL R6	8Eh	1
+	...			MUL R7	8Fh	1
 
 'DIV' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	DIV R0	98h	1
-	...		DIV R1	99h	1
-	...		DIV R2	9Ah	1
-	...		DIV R3	9Bh	1
-	...		DIV R4	9Ch	1
+	...			DIV R1	99h	1
+	...			DIV R2	9Ah	1
+	...			DIV R3	9Bh	1
+	...			DIV R4	9Ch	1
 	... 		DIV R5	9Dh	1
-	...		DIV R6	9Eh	1
-	...		DIV R7	9Fh	1
+	...			DIV R6	9Eh	1
+	...			DIV R7	9Fh	1
 
 Note: ADD and SUB operations performs the operation between DR and Rx, saving in DR,
 similar to logical operations. But, MUL and DIV is not implementing yet 
@@ -115,35 +115,35 @@ If you want store a 8-bit value, you should use the Shift instructions (see belo
 'LD' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	LD R0	70h	1
-	...		LD R1	71h	1
-	...		LD R2	72h	1
-	...		LD R3	73h	1
-	...		LD R4	74h	1
+	...			LD R1	71h	1
+	...			LD R2	72h	1
+	...			LD R3	73h	1
+	...			LD R4	74h	1
 	... 		LD R5	75h	1
-	...		LD R6	76h	1
-	...		LD R7	77h	1
+	...			LD R6	76h	1
+	...			LD R7	77h	1
 
 'IN' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Indirect	IN P0	80h	1
-	...		IN P1	81h	1
-	...		IN P2	82h	1
-	...		IN P3	83h	1
-	...		IN P4	84h	1
+	...			IN P1	81h	1
+	...			IN P2	82h	1
+	...			IN P3	83h	1
+	...			IN P4	84h	1
 	... 		IN P5	85h	1
-	...		IN P6	86h	1
-	...		IN P7	87h	1
+	...			IN P6	86h	1
+	...			IN P7	87h	1
 
 'OUT' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Indirect	OUT P0	90h	1
-	...		OUT P1	91h	1
-	...		OUT P2	92h	1
-	...		OUT P3	93h	1
-	...		OUT P4	94h	1
+	...			OUT P1	91h	1
+	...			OUT P2	92h	1
+	...			OUT P3	93h	1
+	...			OUT P4	94h	1
 	... 		OUT P5	95h	1
-	...		OUT P6	96h	1
-	...		OUT P7	97h	1
+	...			OUT P6	96h	1
+	...			OUT P7	97h	1
 
 Note: LD instruction will moves the value from DR to Rx. The IN and OUT instructions
 will use the Indirect addressing in P0:P1, mapping 12 bits addressing + 4 bits of RAM control.
@@ -155,13 +155,13 @@ DR value to P0 or P1, creating the address.
 'STL' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	STL R0	A8h	1
-	...		STL R1	A9h	1
-	...		STL R2	AAh	1
-	...		STL R3	ABh	1
-	...		STL R4	ACh	1
+	...			STL R1	A9h	1
+	...			STL R2	AAh	1
+	...			STL R3	ABh	1
+	...			STL R4	ACh	1
 	... 		STL R5	ADh	1
-	...		STL R6	AEh	1
-	...		STL R7	AFh	1
+	...			STL R6	AEh	1
+	...			STL R7	AFh	1
 
 Note: STL read from Rx and Save to DR. It's a mix of 'ST' and 'LD', means 'Store Loaded'.
 The hexa opcode start from A8 and finish in AF, while Shift opcode start from A0 and
@@ -185,13 +185,13 @@ Compare Operations ->
 'BT' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	BT R0	C0h	1
-	...		BT R1	C1h	1
-	...		BT R2	C2h	1
-	...		BT R3	C3h	1
-	...		BT R4	C4h	1
+	...			BT R1	C1h	1
+	...			BT R2	C2h	1
+	...			BT R3	C3h	1
+	...			BT R4	C4h	1
 	... 		BT R5	C5h	1
-	...		BT R6	C6h	1
-	...		BT R7	C7h	1
+	...			BT R6	C6h	1
+	...			BT R7	C7h	1
 
 Note: The BT instruction performs the comparation between DR and Rx, only setting the
 Carry and Zero bits (from SR -> 4-bit Status Register). The logical operations define or clear only
@@ -201,19 +201,19 @@ BT performs a subtraction between DR and Rx, without updating DR.
 Jump/Branch Operations ->
 
 'JC' Operation:
-	ADDRESSING 	SYNTAX	HEX	LEN
+	ADDRESSING 	SYNTAX	HEX		LEN
 	Direct		JC NNN	Dxxxh	2
-	Relative 	None	Dxxxh	2
+	Relative 	JC Lab	Dxxxh	2
 
 'JZ' Operation:
-	ADDRESSING 	SYNTAX	HEX	LEN
+	ADDRESSING 	SYNTAX	HEX		LEN
 	Direct		JZ NNN	Exxxh	2
-	Relative 	None	Exxxh	2
+	Relative 	JZ Lab	Exxxh	2
 
 'JP' Operation:
-	ADDRESSING 	SYNTAX	HEX	LEN
+	ADDRESSING 	SYNTAX	HEX		LEN
 	Direct		JP NNN	Fxxxh	2
-	Relative 	None	Fxxxh	2
+	Relative 	JP Lab	Fxxxh	2
 
 Note: The Direct addressing is made only in Assembly, where each 'N' is a hexa nibble, being
 3 nibbles in total (12 bits value). However, the 0xNNN hexa value will convert to the
@@ -223,12 +223,12 @@ JC instruction jump to NNN address if Carry is set, JZ instruction jump to NNN a
 and JP instruction is a inconditional jump, jumping to NNN anyway.
 
 'CALL' Operation:
-	ADDRESSING 	SYNTAX		HEX	LEN
+	ADDRESSING 	SYNTAX		HEX		LEN
 	Direct		CALL NNN	5yxxh	2
-	Relative 	None		5yxxh	2
+	Relative 	CALL Lab	5yxxh	2
 
 	Direct		CALL NNN	7yxxh	2
-	Relative 	None		7yxxh	2
+	Relative 	CALL Lab	7yxxh	2
 
 Note: The CALL Operation has 2 borrowed opcodes: 0x5 and 0x7. The 0x5 opcode is when
 'yxx' is a positive number and 0x7 opcode is when 'yxx' is a negative number. The 'y' number
@@ -244,28 +244,28 @@ Enabling Operations ->
 
 'EI' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	EI	08h	1
+	Implied 	EI		08h	1
 
 'DI' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	DI	09h	1
+	Implied 	DI		09h	1
 
 'ED' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	ED	0Ah	1
+	Implied 	ED		0Ah	1
 
 'DD' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	DD	0Bh	1
+	Implied 	DD		0Bh	1
 
 
 'EC' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	EC	0Ch	1
+	Implied 	EC		0Ch	1
 
 'DC' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	DC	0Dh	1
+	Implied 	DC		0Dh	1
 
 Note: 'EI' enable interrupt, 'DI' disable interrupt. For using EI, P0:P1 should have
 the Interrupt table base address with 4 interrupt routines addresses inside. 'ED' enable 
@@ -277,11 +277,11 @@ Cleaning Operations ->
 
 'CDR' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	CDR	0Eh	1
+	Implied 	CDR		0Eh	1
 
 'CLR' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	CLR	0Fh	1
+	Implied 	CLR		0Fh	1
 
 Note: CDR will clear only the DR register (Accumulator). CLR will clear all the CPU registers.
 
@@ -305,15 +305,15 @@ Stack Operations ->
 
 'SBP' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	SBP	1Ch	1
+	Implied 	SBP		1Ch	1
 
 'ABP' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	ABP	1Dh	1
+	Implied 	ABP		1Dh	1
 
 'SSP' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	SSP	1Eh	1
+	Implied 	SSP		1Eh	1
 
 'IRET' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
@@ -338,13 +338,13 @@ Note 2: SBP is used to access local variables in Functions, and ABP is used to a
 
 'SBW' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	SBW	2Ah	1
+	Implied 	SBW		2Ah	1
 
 Note: From 0x2B to 0x2E is reserved for future instructions SCR, SCS, PUSHA and POPA.
 
 'RET' Operation:
  	ADDRESSING 	SYNTAX	HEX	LEN
-	Implied 	SBW	2Fh	1
+	Implied 	SBW		2Fh	1
 
 Note: PUSHD put DR into Stack, POPD read DR from Stack (Storing in DR).
 SBW make the same like SBP (Subtracting BP - DR), but writing R0 to Stack (Instead Read from Stack).
@@ -354,24 +354,24 @@ RET return the CALL.
 'PUSH' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	PUSH R0	38h	1
-	...		PUSH R1	39h	1
-	...		PUSH R2	3Ah	1
-	...		PUSH R3	3Bh	1
-	...		PUSH R4	3Ch	1
+	...			PUSH R1	39h	1
+	...			PUSH R2	3Ah	1
+	...			PUSH R3	3Bh	1
+	...			PUSH R4	3Ch	1
 	... 		PUSH R5	3Dh	1
-	...		PUSH R6	3Eh	1
-	...		PUSH R7	3Fh	1
+	...			PUSH R6	3Eh	1
+	...			PUSH R7	3Fh	1
 
 'POP' Operation:
 	ADDRESSING 	SYNTAX	HEX	LEN
 	Register	POP R0	48h	1
-	...		POP R1	49h	1
-	...		POP R2	4Ah	1
-	...		POP R3	4Bh	1
-	...		POP R4	4Ch	1
+	...			POP R1	49h	1
+	...			POP R2	4Ah	1
+	...			POP R3	4Bh	1
+	...			POP R4	4Ch	1
 	... 		POP R5	4Dh	1
-	...		POP R6	4Eh	1
-	...		POP R7	4Fh	1
+	...			POP R6	4Eh	1
+	...			POP R7	4Fh	1
 
 Note: PUSH put Rx into stack and POP read Rx from stack (Storing in Rx). 
 
@@ -386,5 +386,6 @@ The other WR80 version named 'WR80 SX' (WR80 SuperExtended) will have the follow
 * New 32 possible instructions
 * Adaptation to LogiSIM evolution (modern simulator).
 * Adaptation to Proteus 8 (Advanced simulator with High Clock).
+
 
 Actually, i will make the WDK (WR80 Development Kit), including the Assembler.
